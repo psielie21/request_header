@@ -1,0 +1,19 @@
+{
+  "name": "request_header",
+  "version": "1.0.0",
+  "description": "A micro API that provides information about the request that was being sent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psielie21/request_header.git"
+  },
+  "author": "Carlo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psielie21/request_header/issues"
+  },
+  "homepage": "https://github.com/psielie21/request_header#readme"
+}

@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "dependencies": {
+    "express": "~3.2.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/psielie21/request_header.git"

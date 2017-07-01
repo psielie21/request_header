@@ -5,7 +5,7 @@ var useragent = require("useragent")
 var port = process.env.PORT || 8080;
 
 var app = express()
-
+console.log("BP1");
 app.get("*", function(req, res){
     console.log(req.headers);
     var agent = useragent.parse(req.headers['user-agent']);

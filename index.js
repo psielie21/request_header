@@ -2,6 +2,8 @@ var express = require("express")
 var get_ip = require("ipware")().get_ip
 var useragent = require("useragent")
 
+var port = process.env.PORT || 8080;
+
 var app = express()
 
 app.get("/", function(req, res){
@@ -11,4 +13,4 @@ app.get("/", function(req, res){
     res.end(JSON.stringify(obj));
 })
 
-app.listen(8080)
+app.listen(port)

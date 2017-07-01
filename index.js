@@ -6,7 +6,7 @@ var port = process.env.PORT || 8080;
 
 var app = express()
 
-app.get("/", function(req, res){
+app.get("*", function(req, res){
     console.log(req.headers);
     var agent = useragent.parse(req.headers['user-agent']);
     var obj = {"ipadress": get_ip(req)["clientIp"] , "language": req.headers["accept-language"].substring(0,5), "software": agent.os.toString()};

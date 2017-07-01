@@ -1,5 +1,5 @@
 {
-  "name": "Request Header",
+  "name": "Request_Header",
   "version": "1.0.0",
   "description": "A micro API that returns info from your request",
   "main": "index.js",
